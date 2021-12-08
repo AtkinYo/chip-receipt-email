@@ -1,0 +1,407 @@
+<mjml>
+    <mj-head>
+        <mj-font name="Inter" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" />
+
+
+        <mj-attributes>
+            <mj-text font-family="Inter, sans-serif" align="center" font-size="18px" line-height="26px" color="#000000" padding="0px">
+                <mj-image padding="0px" />
+
+                <mj-section padding="0" background-color="#000">
+                
+                <mj-class name="head-text" font-size="48px" line-height="69px" color="#ffffff" text-transform="uppercase" />
+        </mj-attributes>
+    </mj-head>
+
+    <mj-body background-color="#ffffff">
+
+        <!-- Order Header -->
+        <mj-section>
+            <mj-column width="400px">
+                <mj-image href="#" src="https://i.ibb.co/GvmXYrY/logo.jpg" alt="Chipotle Logo" />
+                <mj-text font-size="28px" line-height="36px" font-weight="700" color="#A81612" text-transform="uppercase">
+                    Your Order Is In, Eric
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- Order Arrival Time -->
+        <mj-section>
+            <mj-column width="100%">
+                <mj-image src="https://i.ibb.co/r60VP4z/bag.jpg" alt="Chipotle Bag" padding-top="0" />
+
+                <mj-text text-transform="uppercase" color="#A81612" font-weight="700">
+                    Estimated Arrival Time:
+                </mj-text>
+
+                <mj-text text-transform="uppercase" color="#A81612" font-weight="700" font-size="48px" padding-top="12px">
+                    05:42 PM
+                </mj-text>
+
+                <mj-text text-transform="uppercase" color="#A81612" font-weight="500" font-size="18px" padding-top="24px">
+                    09/24/2021
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- Button -->
+        <mj-section>
+            <mj-column width="100%">
+                <mj-button href="#" background-color="#451400" border-radius="0" font-size="18px" font-weight="500">
+                    Where's My Food
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <!-- Rewards -->
+        <mj-section>
+            <mj-column width="100%">
+                <mj-image href="#" src="https://i.ibb.co/4KWWzqC/rewards.jpg" alt="Reward Points" padding="0" />
+                <mj-image href="#" src="https://i.ibb.co/r3DHSbp/map.jpg" alt="Reward Points" padding="0" />
+            </mj-column>
+        </mj-section>
+
+        <!-- Delivery From/To -->
+        <mj-section>
+            <mj-column width="100%">
+                <mj-table color="#A81612">
+                    <tr>
+                        <td>
+                        </td>
+                        <td width="100px">
+                            <img src="https://i.ibb.co/LpJ23GB/deliver-from-pin.jpg" alt="Deliver From Pin" width="40px" />
+                        </td>
+                        <td width="300px">
+                            <mj-text style="font-size: 24px">
+                                Cooper Rd
+                            </mj-text>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="20%">
+                            
+                        </td>
+                        <td width="100px">
+                        </td>
+                        <td width="300px">
+                            <mj-text style="font-size: 24px">
+                                847 Cooper Rd
+                            </mj-text>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="20%">
+                            
+                        </td>
+                        <td width="100px">
+                        </td>
+                        <td width="300px">
+                            <mj-text style="font-size: 16px">
+                                Gilbert, AZ - 85233
+                            </mj-text>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td width="20%">
+                        </td>
+                        <td width="100px">
+                            <img src="https://i.ibb.co/g7Km3m9/deliver-to-pin.jpg" alt="Deliver To Pin" width="40px" />
+                        </td>
+                        <td width="300px">
+                            <mj-text style="font-size: 24px">
+                                Eric Young
+                            </mj-text>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="20%">
+                            
+                        </td>
+                        <td width="100px">
+                        </td>
+                        <td width="300px">
+                            <mj-text style="font-size: 24px">
+                                640 Haywood Road
+                            </mj-text>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="20%">
+                            
+                        </td>
+                        <td width="100px">
+                        </td>
+                        <td width="300px">
+                            <mj-text style="font-size: 16px">
+                                Phoenix, AZ - 85042
+                            </mj-text>
+                        </td>
+                    </tr>
+                </mj-table>
+
+            </mj-column>
+        </mj-section>
+
+        <!-- Order Details -->
+        <mj-wrapper>
+            <!-- Order Name 1 -->
+            <mj-section>
+                <!-- Name -->
+                <mj-column width="45%">
+                    <mj-text align="left" font-size="24px" font-weight="700" color="#451400">
+                        Mike N
+                    </mj-text>
+                </mj-column>
+
+                <!-- Price -->
+                <mj-column width="45%">
+                    <mj-text align="right" font-size="24px" font-weight="700" color="#451400">
+                        $9.25
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <!-- Order Items -->
+            <mj-section border-bottom="1px solid #A81612">
+
+                <!-- Order -->
+                <mj-column width="90%">
+                    <mj-text align="left" font-weight="700" color="#A81612">
+                        Steak Burrito
+                    </mj-text>
+
+                    <!-- Options -->
+                    <mj-text align="left" font-weight="500" color="#A81612">
+                        No Rice, Black Beans, Queso, Cheese
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+
+            <!-- Order Name 2 -->
+            <mj-section>
+                <!-- Name -->
+                <mj-column width="45%">
+                    <mj-text align="left" font-size="24px" font-weight="700" color="#451400">
+                        Matt C
+                    </mj-text>
+                </mj-column>
+
+                <!-- Price -->
+                <mj-column width="45%">
+                    <mj-text align="right" font-size="24px" font-weight="700" color="#451400">
+                        $6.95
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <!-- Order Items -->
+            <mj-section border-bottom="1px solid #A81612">
+                <!-- Order -->
+                <mj-column width="90%">
+                    <mj-text align="left" font-weight="700" color="#A81612">
+                        Chicken Burrito
+                    </mj-text>
+
+                    <!-- Options -->
+                    <mj-text align="left" font-weight="500" color="#A81612">
+                        Brown Rice, Black Beans, Cheese
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+
+            <!-- Order Name 3 -->
+            <mj-section>
+                <!-- Name -->
+                <mj-column width="45%">
+                    <mj-text align="left" font-size="24px" font-weight="700" color="#451400">
+                        Aiden S
+                    </mj-text>
+                </mj-column>
+
+                <!-- Price -->
+                <mj-column width="45%">
+                    <mj-text align="right" font-size="24px" font-weight="700" color="#451400">
+                        $3.95
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <!-- Order Items -->
+            <mj-section border-bottom="1px solid #A81612">
+                <!-- Order -->
+                <mj-column width="90%">
+                    <mj-text align="left" font-weight="700" color="#A81612">
+                        Cheese Only Kids Quesadilla
+                    </mj-text>
+
+                    <!-- Options -->
+                    <mj-text align="left" font-weight="500" color="#A81612">
+                        Soft Flour Tortilla, White Rice, Black Beans, Kid's Chips, Organic Apple Juice
+                    </mj-text>
+                </mj-column>
+            </mj-section>            
+        </mj-wrapper>
+        
+        <!-- Subtotal -->
+        <mj-section>
+            <!-- Delivery Fee -->
+            <mj-group width="95%">
+                <mj-column width="50%" padding-bottom="12px">
+                    <mj-text align="left" color="#A81612">
+                        Delivery Fee
+                    </mj-text>
+                </mj-column>
+                <mj-column width="50%" padding-bottom="12px">
+                    <mj-text align="right" font-weight="bold" color="#A81612">
+                        3.99
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+
+            
+            <!-- Subtotal -->
+            <mj-group width="95%">
+                <mj-column width="50%" padding-bottom="12px">
+                    <mj-text align="left" color="#A81612">
+                        Subtotal
+                    </mj-text>
+                </mj-column>
+                <mj-column width="50%" padding-bottom="12px">
+                    <mj-text align="right" font-weight="bold" color="#A81612">
+                        24.14
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+
+            
+            <!-- Tax -->
+            <mj-group width="95%">
+                <mj-column width="50%" padding-bottom="12px">
+                    <mj-text align="left" color="#A81612">
+                        Tax
+                    </mj-text>
+                </mj-column>
+                <mj-column width="50%" padding-bottom="12px">
+                    <mj-text align="right" font-weight="bold" color="#A81612">
+                        2.75
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+
+            
+            <!-- Tip -->
+            <mj-group width="95%">
+                <mj-column width="50%" padding-bottom="12px">
+                    <mj-text align="left" color="#A81612">
+                        Tip
+                    </mj-text>
+                </mj-column>
+                <mj-column width="50%" padding-bottom="12px">
+                    <mj-text align="right" font-weight="bold" color="#A81612">
+                        6.78
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+
+            <mj-column width="100%">
+                <mj-divider border-width="1px" border-style="solid" border-color="#000000" padding="24px 0" />
+            </mj-column>
+
+            <!-- Total Price -->
+            <mj-group width="95%">
+                <mj-column width="50%">
+                    <mj-text align="left" font-size="24px" font-weight="700" color="#451400">
+                        Total
+                    </mj-text>
+                </mj-column>
+                <mj-column width="50%">
+                    <mj-text align="right" font-size="24px" font-weight="700" color="#451400">
+                        $33.67
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+
+        <!-- Survey -->
+        <mj-section>
+            <mj-column width="100%">
+                <mj-image src="https://i.ibb.co/1nwL42z/burrito.jpg" alt="Burrito" width="600px" padding="0"/>
+            </mj-column>
+            <mj-column width="100%">
+                <mj-text color="#A81612" font-size="24px" padding="28px 0" font-weight="600" line-height="30px">
+                    How are we doing? <br> Let us know here.
+                </mj-text>
+            </mj-column>
+                    <!-- Button -->
+            <mj-column width="100%">
+                <mj-button href="#" background-color="#451400" border-radius="0" font-size="18px" font-weight="500" text-transform="uppercase">
+                    Take Our Survey
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <!-- Footer -->
+        <mj-section>
+            <!-- Footer Links -->
+            <mj-group width="400px">
+                <mj-column width="33%">
+                    <mj-text>
+                        <a href="#" style="text-transform: uppercase;color:#000000;text-decoration:none;font-size:12px;font-weight:700">Download Our App</a>
+                    </mj-text>
+                </mj-column>
+                <mj-column width="33%">
+                    <mj-text>
+                        <a href="#" style="text-transform: uppercase;color:#000000;text-decoration:none;font-size:12px;font-weight:700">Catering</a>
+                    </mj-text>
+                </mj-column>
+                <mj-column width="33%">
+                    <mj-text>
+                        <a href="#" font-weight="600" style="text-transform: uppercase;color:#000000;text-decoration:none;font-size:12px;font-weight:700">Delivery</a>
+                    </mj-text>
+                </mj-column>
+                <mj-column width="100%">
+                    <mj-text padding-top="20px" font-size="16px" font-weight="600">
+                        Cultivate a Better World.
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+            <!-- Social Links -->
+            <mj-group width="300px">
+                <mj-column width="33%" padding-top="20px">
+                    <mj-image href="#" src="https://i.ibb.co/s6vYg7W/instagram.jpg" alt="Facebook" width="28px" />
+                </mj-column>
+                <mj-column width="33%" padding-top="20px">
+                    <mj-image href="#" src="https://i.ibb.co/27YNq6B/facebook.jpg" alt="Facebook" width="13px" />
+                </mj-column>
+                <mj-column width="33%" padding-top="20px">
+                    <mj-image href="#" src="https://i.ibb.co/6PXs3z8/twitter.jpg" alt="Facebook" width="28px" />
+                </mj-column>
+                <mj-column width="100%" padding-top="20px">
+                    <mj-text>
+                        <a href="#" font-weight="600" style="text-transform: uppercase;color:#000000;text-decoration:none;font-size:18px;font-weight:700">CHIPOTLE.COM</a>
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+
+        <!-- Email Ending -->
+        <mj-section>
+            <mj-column width="100%">
+                <mj-divider border-width="1px" border-style="solid" border-color="#000000" padding="24px 0" />
+            </mj-column>
+
+            <mj-column width="100%">
+                <mj-text font-size="13px">
+                    This email was sent to erics@icloud.com
+                </mj-text>
+                <mj-text font-size="13px">
+                    <a href="#" style="text-decoration:none;color:#000000">Customer Service</a>
+                </mj-text>
+                <mj-text font-size="11px">
+                    Chipotle Mexican Grill, Inc - 610 Newport Center Drive<br>Newport Beach, CA 92660 - USA
+                </mj-text>
+                <mj-text font-size="13px">
+                    <a href="#" style="text-decoration:none;color:#000000">Privacy Policy</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
